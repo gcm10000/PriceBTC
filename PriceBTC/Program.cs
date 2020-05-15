@@ -4,6 +4,7 @@ namespace PriceBTC
 {
     class Program
     {
+        //Comissão de compra e venda do Mercado Bitcoin
         static float Comission = 0.01f;
         static void Main(string[] args)
         {
