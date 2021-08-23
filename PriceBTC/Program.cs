@@ -18,12 +18,12 @@ namespace PriceBTC
             if (newPrice < oldPrice)
             {
                 pp = (newPrice / oldPrice);
-                percentageProcessor = (1 / pp) - 1;
+                percentageProcessor = pp - 1;
             }
             else if (oldPrice < newPrice)
             {
                 pp = (oldPrice / newPrice);
-                percentageProcessor = pp - 1;
+                percentageProcessor = (1 / pp) - 1;
             }
 
 
